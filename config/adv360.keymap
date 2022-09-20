@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2     &kp N3      &kp N4    &kp N5                      &tog 4             &mo 3          &kp N6     &kp N7     &kp N8         &kp N9           &kp N0       &kp MINUS
-   &kp TAB      &kp Q     &kp W      &kp E       &kp R     &kp T            &mt LEFT_SHIFT A           &lt 1 A           &kp Y      &kp U      &kp I          &kp O            &kp P        &kp BSLH
-   &kp ESC      &kp A     &kp S      &kp D       &kp F     &kp G                      &tog 0             &mo 2    &kp LEFT_ALT                            &kp PG_UP  &kp RIGHT_SHIFT  &kp LEFT_SHIFT     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X      &kp C       &kp V     &kp B                       &none             &none  &kp LEFT_SHIFT      &none      &none      &kp PG_DN            &none           &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp GRAVE  &kp ESCAPE  &kp BSPC                   &kp LCTRL  &kp LEFT_COMMAND         &kp TAB  &kp ENTER  &kp SPACE  &kp BACKSLASH          &kp SQT        &kp LBKT  &kp RBKT   &mo 2
+ &kp EQUAL          &kp N1              &kp N2              &kp N3            &kp N4    &kp N5                      &tog 4             &mo 3          &kp N6     &kp N7     &kp N8         &kp N9         &kp N0       &kp MINUS
+   &kp TAB           &kp Q               &kp W               &kp E             &kp R     &kp T            &mt LEFT_SHIFT A             &none           &kp Y      &kp U      &kp I          &kp O          &kp P        &kp BSLH
+   &kp ESC  &mt LEFT_ALT A  &mt LEFT_COMMAND S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F     &kp G                      &tog 0             &mo 2    &kp LEFT_ALT                            &kp PG_UP  &kp LEFT_META  &kp LEFT_SHIFT     &kp H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_COMMAND L  &kp SEMI    &kp SQT
+ &kp LSHFT           &kp Z               &kp X               &kp C             &kp V     &kp B                       &none             &none  &kp LEFT_SHIFT      &none      &none      &kp PG_DN          &none           &none     &kp N             &kp M           &kp COMMA             &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2       &kp GRAVE            &kp CAPS           &kp GRAVE        &kp ESCAPE  &kp BSPC                   &kp LCTRL  &kp LEFT_COMMAND         &kp TAB  &kp ENTER  &kp SPACE  &kp BACKSLASH        &kp SQT        &kp LBKT  &kp RBKT             &mo 2
             >;
         };
 
