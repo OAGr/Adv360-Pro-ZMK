@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1          &kp N2              &kp N3           &kp N4                   &kp N5                          &tog 1               &mo 3          &kp N6         &kp N7              &kp N8        &kp N9          &kp N0       &kp MINUS
-   &kp TAB      &kp Q           &kp W               &kp F            &kp P                    &kp B                          &tog 0               &none           &kp J          &kp L               &kp U         &kp Y        &kp SEMI        &kp BSLH
-   &kp ESC      &kp A  &mt LEFT_ALT R  &mt LEFT_CONTROL S            &kp T                    &kp G                          &tog 2               &mo 2    &kp LEFT_ALT                                        &kp PG_UP   &kp LEFT_META  &kp LEFT_SHIFT     &kp M   &kp N      &kp E    &kp I     &kp O    &kp SQT
- &kp LSHFT      &kp Z           &kp X               &kp C            &kp D                    &kp V                           &none               &none  &kp LEFT_SHIFT          &none               &none     &kp PG_DN           &none           &none     &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE        &kp CAPS      &kp LEFT_ARROW  &kp RIGHT_ARROW  &mt LEFT_CONTROL ESCAPE            &mt LEFT_SHIFT SPACE  &mt LEFT_GUI ENTER         &kp TAB  &kp BACKSPACE  &mt RIGHT_META TAB  &kp UP_ARROW  &kp DOWN_ARROW        &kp LBKT  &kp RBKT   &mo 2
+ &kp EQUAL     &kp N1    &kp N2          &kp N3           &kp N4                   &kp N5                          &tog 1               &mo 3          &kp N6         &kp N7              &kp N8        &kp N9          &kp N0       &kp MINUS
+   &kp TAB      &kp Q     &kp W           &kp F            &kp P                    &kp B                          &tog 0               &none           &kp J          &kp L               &kp O         &kp Y        &kp SEMI        &kp BSLH
+   &kp ESC      &kp A     &kp R           &kp S            &kp T                    &kp G                          &tog 2               &mo 2    &kp LEFT_ALT                                        &kp PG_UP   &kp LEFT_META  &kp LEFT_SHIFT     &kp M   &kp N      &kp E    &kp I     &kp U    &kp SQT
+ &kp LSHFT      &kp Z     &kp X           &kp C            &kp D                    &kp V                           &none               &none  &kp LEFT_SHIFT          &none               &none     &kp PG_DN           &none           &none     &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW  &mt LEFT_CONTROL ESCAPE            &mt LEFT_SHIFT SPACE  &mt LEFT_GUI ENTER         &kp TAB  &kp BACKSPACE  &mt RIGHT_META TAB  &kp UP_ARROW  &kp DOWN_ARROW        &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
