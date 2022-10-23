@@ -19,7 +19,7 @@
 #include <dt-bindings/zmk/backlight.h>
 
 #define HYP(key) LS(LC(LA(LG(key))))
-#define HYPER    LS(LC(LA(LGUI)))
+#define HYPER  LS(LC(LA(LGUI)))
 
 / {
   behaviors {
@@ -29,7 +29,7 @@
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <150>;
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
@@ -42,11 +42,39 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2          &kp N3           &kp N4                   &kp N5                          &tog 1               &mo 3          &kp N6         &kp N7              &kp N8        &kp N9          &kp N0       &kp MINUS
-   &kp TAB      &kp Q     &kp W           &kp F            &kp P                    &kp B                          &tog 0               &none           &kp J          &kp L               &kp O         &kp Y        &kp SEMI        &kp BSLH
-   &kp ESC      &kp A     &kp R           &kp S            &lt LEFT_GUI T                    &kp G                          &tog 2               &mo 2    &kp LEFT_ALT                                        &kp PG_UP   &kp LEFT_META  &kp LEFT_SHIFT     &kp M   &kp N      &kp E    &kp I     &kp U    &kp SQT
- &kp LSHFT      &kp Z     &kp X           &kp C            &kp D                    &kp V                           &none               &none  &kp LEFT_SHIFT          &none               &none     &kp PG_DN           &none           &none     &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW  &mt LEFT_CONTROL ESCAPE            &mt LEFT_SHIFT SPACE  &mt LEFT_GUI ENTER         &lt 1 TAB  &lt 2 BACKSPACE  &kp HYPER &kp UP_ARROW  &kp DOWN_ARROW        &kp LBKT  &kp RBKT   &mo 2
+// Row 1 Left - 7 
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &tog 1  
+// Row 1 Right - 7 
+&mo 3  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
+// Row 2 Left - 7
+&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &tog 0
+// Row 2 Right - 7
+&none  &kp J  &kp L  &kp O  &kp Y  &kp SEMI  &kp BSLH
+// Row 3 Left - 7 
+&kp ESC  &kp A  &kp R  &kp S  &hm LEFT_GUI T  &kp G  &tog 2
+// Row middle - 4 top b
+&mo 2  &kp LEFT_ALT  &kp PG_UP &kp LEFT_META
+// Row 3 Right - 7 Note: sqt means '
+&kp LEFT_SHIFT  &kp M  &kp N  &kp E  &kp I  &kp U  &kp SQT
+// Row 4 Left - 6
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V
+// Lots of nones, I assume no meaning
+&none  &none
+// Middle left thumb cluster
+&kp LEFT_SHIFT
+&none  &none
+// Middle right thumb cluster
+&kp PG_DN
+&none  &none
+// Row 4 Right - 6
+&kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+// Row 4 Left - 6
+&mo 2  &kp GRAVE  &none  &kp LEFT_ARROW  &kp RIGHT_ARROW
+// Left bottom thumb cluster
+&mt LEFT_CONTROL ESCAPE  &mt LEFT_SHIFT SPACE &mt LEFT_GUI ENTER
+// Right bottom thumb cluster
+&lt 1 TAB  &lt 2 BACKSPACE  &kp HYPER
+&kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
