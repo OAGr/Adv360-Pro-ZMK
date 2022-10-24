@@ -40,7 +40,7 @@
 // Row 4 Left - 6
 &mo 2  &kp GRAVE  &none  &kp LEFT_ARROW  &kp RIGHT_ARROW
 // Left bottom thumb cluster
-&kp ESCAPE  &kp SPACE &hr LEFT_SHIFT ENTER
+&kp ESCAPE  &kp SPACE &hm LEFT_SHIFT ENTER
 // Right bottom thumb cluster
 &lt 1 TAB  &lt 2 BACKSPACE  &kp HYPER
 &kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT  &kp RBKT  &mo 2
