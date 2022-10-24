@@ -34,13 +34,13 @@
 // Row 2
 &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &tog 0                                  &none  &kp J  &kp L  &kp O  &kp Y  &kp SEMI  &kp BSLH
 // Row 3, with 4 middle bottons
-&kp ESC  &kp A  &hm LEFT_CONTROL R  &hm LEFT_GUI S  &kp T  &kp G  &tog 2           &mo 2  &kp LEFT_ALT  &kp PG_UP &kp LEFT_META            &kp LEFT_SHIFT  &kp M  &kp N  &hm RIGHT_GUI E  &hm RIGHT_CONTROL I  &kp U  &kp SQT
+&kp ESC  &kp A  &kp R  &kp S  &kp T  &kp G  &tog 2           &mo 2  &kp LEFT_ALT  &kp PG_UP &kp LEFT_META            &kp LEFT_SHIFT  &kp M  &kp N  &kp E  &kp I  &kp U  &kp SQT
 // Row 4 Left - 6
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V                &none  &none        &kp LEFT_SHIFT      &none  &none    &kp PG_DN   &none  &none        &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&kp LSHFT  &kp Z  &kp X  &hm LEFT_CONTROL C  &hm LEFT_GUI D  &kp V                &none  &none        &kp LEFT_SHIFT      &none  &none    &kp PG_DN   &none  &none        &kp K  &hm RIGHT_GUI H  &hm RIGHT_CONTROL COMMA  &kp DOT  &kp FSLH  &kp RSHFT
 // Row 4 Left - 6
 &mo 2  &kp GRAVE  &none  &kp LEFT_ARROW  &kp RIGHT_ARROW
 // Left bottom thumb cluster
-&mt LEFT_CONTROL ESCAPE  &mt LEFT_SHIFT SPACE &mt LEFT_GUI ENTER
+&kp ESCAPE  &kp SPACE &hr LEFT_SHIFT ENTER
 // Right bottom thumb cluster
 &lt 1 TAB  &lt 2 BACKSPACE  &kp HYPER
 &kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT  &kp RBKT  &mo 2
