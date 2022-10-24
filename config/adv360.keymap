@@ -42,7 +42,7 @@
 // Left bottom thumb cluster
 &kp ESCAPE  &kp SPACE &lt 1 TAB
 // Right bottom thumb cluster
-&lt 2 ENTER  &hr RIGHT_SHIFT BACKSPACE  &kp HYPER
+&lt 2 ENTER  &hm RIGHT_SHIFT BACKSPACE  &kp HYPER
 &kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
