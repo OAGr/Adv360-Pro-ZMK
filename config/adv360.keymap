@@ -30,7 +30,7 @@
         default_layer {
             bindings = <
 // Row 1
-&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &tog 1                         &mo 3  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &mo 3                         &mo 3  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS
 // Row 2
 &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &tog 0                                  &none  &kp J  &kp L  &kp O  &kp Y  &kp SEMI  &kp BSLH
 // Row 3, with 4 middle bottons
@@ -70,7 +70,7 @@
         layer_mod {
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                            &tog 0       &trans  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &none
-  &none         &none         &none         &none         &none            &none                            &trans  &bootloader         &none         &none            &none         &none         &none                   &none
+  &none         &none         &none         &none         &none            &none                            &bootloader  &bootloader         &none         &none            &none         &none         &none                   &none
   &none         &none         &none         &none         &none            &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR         &none                                   &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
   &none         &none         &none         &none         &none            &none                             &none        &none         &none         &none            &none         &none         &none                   &none   &none   &none   &none   &none   &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG                        &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_INC    &bl BL_DEC                   &none   &none   &none
