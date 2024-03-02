@@ -25,7 +25,6 @@
           quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
-          global_quick_tap;
       };
     };
 
@@ -37,7 +36,7 @@
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp B  &none                                                            &none &kp J  &kp L  &kp O     &kp Y    &kp SEMI    &kp BSLH
         &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp PG_UP  &kp LEFT_META           &kp LEFT_SHIFT &kp M  &kp N  &kp E     &kp I    &kp U &kp SQT
-        &kp LSHFT &kp Z     &kp X    &km LEFT_CONTROL C    &kp LEFT_GUI D      &kp V                            &kp HOME &kp PG_UP                           &kp K  &hm RIGHT_GUI H  &hm RIGHT_CONTROL COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &kp LSHFT &kp Z     &kp X    &hm LEFT_CONTROL C    &hm LEFT_GUI D      &kp V                            &kp HOME &kp PG_UP                           &kp K  &hm RIGHT_GUI H  &hm RIGHT_CONTROL COMMA &kp DOT  &kp FSLH &kp RSHFT
         &mo 2     &kp GRAVE &none &kp LEFT &kp RIGHT                &kp ESCAPE &kp SPACE   &lt 1 TAB  &lt 2 ENTER &hm RIGHT_SHIFT BACKSPACE &kp HYPER              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
