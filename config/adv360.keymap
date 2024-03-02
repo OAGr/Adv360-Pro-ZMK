@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define HYPER  LS(LC(LALT))
+
 / {
     behaviors {
       #include "macros.dtsi"
@@ -37,7 +39,7 @@
         &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp B  &none                                                            &none &kp J  &kp L  &kp O     &kp Y    &kp SEMI    &kp BSLH
         &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp G  &none           &kp LCTRL &kp LALT &kp PG_UP  &kp LEFT_META           &kp LEFT_SHIFT &kp M  &kp N  &kp E     &kp I    &kp U &kp SQT
         &kp LSHFT &kp Z     &kp X    &hm LEFT_CONTROL C    &hm LEFT_GUI D      &kp V                            &kp HOME &kp PG_UP                           &kp K  &hm RIGHT_GUI H  &hm RIGHT_CONTROL COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &none &kp LEFT &kp RIGHT                &kp ESCAPE &kp SPACE   &lt 1 TAB  &lt 2 ENTER &hm RIGHT_SHIFT BACKSPACE &kp HYPER              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &mo 2     &kp GRAVE &none &kp LEFT &kp RIGHT                &kp ESCAPE &kp SPACE   &kp TAB &kp ENTER &hm RIGHT_SHIFT BACKSPACE &kp HYPER              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
