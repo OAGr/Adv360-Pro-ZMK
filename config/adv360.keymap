@@ -130,11 +130,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1              &kp N2               &kp N3              &kp N4               &kp N5  &tog 1                                                                                                  &mo 3  &kp N6  &kp N7                &kp N8               &kp N9                &kp N0               &kp MINUS
-&kp TAB    &kp Q               &kp W                &kp F               &kp P                &kp B   &none                                                                                                   &none  &kp J   &kp L                 &kp O                &kp Y                 &kp SEMI             &kp BSLH
-&kp ESC    &left_pinky RALT A  &left_ring1 RCTRL R  &left_middy RGUI S  &left_index RSHFT T  &kp G   &none                           &kp LCTRL  &kp LALT    &kp LGUI   &kp RCTRL                             &none  &kp M   &right_index RSHFT N  &right_middy RGUI E  &right_ring1 RCTRL I  &right_pinky RALT U  &kp SQT
-&kp LSHFT  &kp Z               &kp X                &kp C               &kp D                &kp V                                              &kp HOME    &kp PG_UP                                               &kp K   &kp H                 &kp COMMA            &kp DOT               &kp FSLH             &kp RSHFT
-&mo 2      &kp GRAVE           &kp CAPS             &kp LEFT            &kp RIGHT                            &thumb_layer_tap 1 ESC  &kp SPACE  &kp TAB     &kp RET    &kp BSPC   &thumb_layer_tap 2 DELETE                 &kp UP                &kp DOWN             &kp LBKT              &kp RBKT             &mo 2
+&kp EQUAL  &kp N1              &kp N2               &kp N3              &kp N4               &kp N5  &tog 1                                                                                                      &mo 3  &kp N6  &kp N7                &kp N8               &kp N9                &kp N0               &kp MINUS
+&kp TAB    &kp Q               &kp W                &kp F               &kp P                &kp B   &none                                                                                                       &none  &kp J   &kp L                 &kp O                &kp Y                 &kp SEMI             &kp BSLH
+&kp ESC    &left_pinky RALT A  &left_ring1 RCTRL R  &left_middy RGUI S  &left_index RSHFT T  &kp G   &none                           &kp LCTRL  &kp LALT    &kp PG_UP      &kp RCTRL                             &none  &kp M   &right_index RSHFT N  &right_middy RGUI E  &right_ring1 RCTRL I  &right_pinky RALT U  &kp SQT
+&kp LSHFT  &kp Z               &kp X                &kp C               &kp D                &kp V                                              &kp HOME    &kp PAGE_DOWN                                               &kp K   &kp H                 &kp COMMA            &kp DOT               &kp FSLH             &kp RSHFT
+&mo 2      &kp GRAVE           &kp CAPS             &kp LEFT            &kp RIGHT                            &thumb_layer_tap 1 ESC  &kp SPACE  &kp TAB     &kp RET        &kp BSPC   &thumb_layer_tap 2 DELETE                 &kp UP                &kp DOWN             &kp LBKT              &kp RBKT             &mo 2
             >;
         };
 
